@@ -35,6 +35,15 @@ But if we use if(a<b|a++<b) // a will become 21 becouse right side will also che
 <br>
 ***Key 4 (Operators) ->*** 
 <br>
+If we talk about the assignment operators like a+=b or a*=b etc, they will not do implicit type casting of operators <br>
+<br>
+For Example if we have 
+<br>
+short a=20; <br>
+short b=20; <br>
+a+=b //will not give compiler error and will add values of b into a <br>
+But if i do a=a+b; // compiler will give error of loosy conversion from int to short as it converted b to int due to '+' operator <br>
+
 
 
 
