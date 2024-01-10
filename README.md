@@ -53,8 +53,9 @@ Abstract class  can contain abstract methods (abstract void x();) and class whic
 ## Interfaces
 Need of interfaces arises for achiving multiple inheritanse and providing more detailed polymorphism to classes. <br>
 Interface can have (default void x(){}) default method with body and (void x();) method with no body. (Public, static and final) <br>
-
-
+#### Functional Interface
+Functional Interface in java this interface has only 1 abstarct method but can contain default or static method also, Functional Interface was introduced in java8 and Lamda expression is used for making easy  use of functional interface. <br>
+The ***Anonymus class** gets created when we create reference of Interface type, this class contains implimentaion of abstract method of interface and this anonymus class implimentation can get more simplified by using lamda expression. <br>
 
 
 
