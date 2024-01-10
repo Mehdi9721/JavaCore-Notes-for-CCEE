@@ -10,7 +10,8 @@ In java we have shift operators like >> (right shift) and (<<) left shift. The r
 (actual_number)*(2^how many shifts) and for left shift <br>
 <br>
 [ (actual_number)\(2^how many shifts) ]. <br>
-for example if we have 8 and wants to shift by 6 bits = 8*2^6.<br>
+for example if we have 8 and wants to right shift by 6 bits = 8*2^6.<br>
+for example if we have 8 and wants to Left shift by 6 bits = 8/2^6.<br>
 <br>
 ----------------------------- Key 2 Operators->
 <br>
