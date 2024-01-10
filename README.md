@@ -21,8 +21,8 @@ Now we have conditionals operators like && and || but in case of && operator wit
 Example : <br>
 a=20; <br>
 b=30; <br>
-if(a>b&&a++<b){} // a will not get incremented becouse the left side is false <br>
-But if we use if(a>b&&a++<b) // a will become 21 becouse right side will also checked <br>
+_if(a>b && a++<b){}_ // a will not get incremented becouse the left side is false <br>
+But if we use _if((a>b) & (a++<b))_ // a will become 21 becouse right side will also checked <br>
 <br>
 ***Key 3 (Operators) ->*** 
 <br>
@@ -30,8 +30,8 @@ Now Similar to '&&' and '&' operators The '||' and '|' operators performs same, 
 Example : <br>
 a=20; <br>
 b=30; <br>
-if(a<b||a++<b){} // a will not get incremented becouse the left side is false <br>
-But if we use if(a<b|a++<b) // a will become 21 becouse right side will also checked <br>
+_if(a<b || a++<b){}_ // a will not get incremented becouse the left side is false <br>
+But if we use _if(a<b | a++<b)_ // a will become 21 becouse right side will also checked <br>
 <br>
 ***Key 4 (Operators) ->*** 
 <br>
@@ -47,8 +47,12 @@ But if i do a=a+b; // compiler will give error of loosy conversion from int to s
 ## Class in JAVA
 ***Key 1 (class) ->*** 
 Java class has static/class related and non-static/instance related variables and methods and by default there values are 0. <br>
-
-
+Java class can be abstract and final, final class can not get inherited and We are not able to create object of abstract class. <br>
+---> Abstract class. <br>
+Abstract class  can contain abstract methods (abstract void x();) and class which inherits abstract class it is necessory for them to implement abstract methods of Parent class. <br>
+## Interfaces
+Need of interfaces arises for achiving multiple inheritanse and providing more detailed polymorphism to classes. <br>
+Interface can have (default void x(){}) default method with body and (void x();) method with no body. (Public, static and final) <br>
 
 
 
