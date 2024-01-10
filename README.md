@@ -1,7 +1,7 @@
 # JavaCore-Notes-for-CCEE
 ## DAY_1 
 ### Understanding every small aspects of java core programming     (Note- READ EVERY KEY POINTS THESE ARE IMP FOR CCEE)
-#### Started with Operators. 
+## Operators. 
 (We have many operators but here we are discussing only about small aspects of operators in java)<br>                         
 <br>
 ***Key 1 (Operators) ->*** 
@@ -42,7 +42,11 @@ For Example if we have
 short a=20; <br>
 short b=20; <br>
 a+=b //will not give compiler error and will add values of b into a <br>
-But if i do a=a+b; // compiler will give error of loosy conversion from int to short as it converted b to int due to '+' operator <br>
+But if i do a=a+b; // compiler will give error of loosy conversion from int to short as it converted a and b int to short 'a' due to '+' operator <br>
+
+## Class in JAVA
+***Key 1 (class) ->*** 
+Java class has static/class related and non-static/instance related variables and methods and by default there values are 0. <br>
 
 
 
